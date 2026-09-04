@@ -1,43 +1,17 @@
 <!doctype html>
 <html lang="lv">
 <head>
-  <!-- Google Consent Mode v2 — JĀBŪT PIRMAJAM, pirms GTM/GA4 -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('consent', 'default', {
-      'analytics_storage':     'denied',
-      'ad_storage':            'denied',
-      'ad_user_data':          'denied',
-      'ad_personalization':    'denied',
-      'wait_for_update':       500
-    });
-  </script>
-  <!-- End Google Consent Mode v2 -->
-
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PG32RVF');</script>
-<!-- End Google Tag Manager -->
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RHWKVN05N"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5RHWKVN05N');
+  window.op=window.op||function(){var n=[];return new Proxy(function(){arguments.length&&n.push([].slice.call(arguments))},{get:function(t,r){return"q"===r?n:function(){n.push([r].concat([].slice.call(arguments)))}} ,has:function(t,r){return"q"===r}}) }();
+  window.op('init', {
+    apiUrl: 'https://api-analytics.bpd.lv',
+    clientId: 'e8c9c123-73e4-4bb7-87fc-d311806abc5b',
+    trackScreenViews: true,
+    trackOutgoingLinks: true,
+    trackAttributes: true,
+  });
 </script>
-  <!-- Cookie Consent bibliotēka (orestbida/cookieconsent, MIT) -->
-  <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
-  <script defer
-    src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js">
-  </script>
-  <!-- End Cookie Consent -->
+<script src="https://analytics.bpd.lv/op1.js" defer async></script>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
