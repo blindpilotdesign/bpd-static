@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="lv">
+<head>
+  <!-- Google Consent Mode v2 — JĀBŪT PIRMAJAM, pirms GTM/GA4 -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage':     'denied',
+      'ad_storage':            'denied',
+      'ad_user_data':          'denied',
+      'ad_personalization':    'denied',
+      'wait_for_update':       500
+    });
+  </script>
+  <!-- End Google Consent Mode v2 -->
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PG32RVF');</script>
+<!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RHWKVN05N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5RHWKVN05N');
+</script>
+  <!-- Cookie Consent bibliotēka (orestbida/cookieconsent, MIT) -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+  <script defer
+    src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js">
+  </script>
+  <!-- End Cookie Consent -->
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Blindpilot Design — Dizaina un ražošanas atbalsts</title>
+  <link rel="canonical" href="https://bpd.lv/" />
+<meta name="description"
+content="Reklāmas dizaina un ražošanas atbalsts uzņēmumiem. CMYK - druka, OOH, failu adaptācijas. RGB - digitālie materiāli, Web kampaņas HTML5, DOOH, animācija un UI/UX" />  <!-- Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/site.webmanifest">
+
+  <!-- Fonts (example) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- Base CSS -->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
+  <!-- Cookie Consent konfigurācija -->
+  <script defer>
+    document.addEventListener('DOMContentLoaded', function () {
+      CookieConsent.run({
+        categories: {
+          necessary: { enabled: true, readOnly: true },
+          analytics: {}
+        },
+        language: {
+          default: 'lv',
+          translations: {
+            lv: {
+              consentModal: {
+                title: 'Mēs izmantojam sīkdatnes',
+                description: 'Lai analizētu vietnes apmeklējumu un uzlabotu pakalpojumus, izmantojam Google Analytics sīkdatnes. Jūs varat izvēlēties, kuras pieņemt.',
+                acceptAllBtn: 'Pieņemt visas',
+                rejectAllBtn: 'Noraidīt',
+                showPreferencesBtn: 'Pārvaldīt preferences'
+              },
+              preferencesModal: {
+                title: 'Sīkdatņu preferences',
+                savePreferencesBtn: 'Saglabāt izvēli',
+                acceptAllBtn: 'Pieņemt visas',
+                rejectAllBtn: 'Noraidīt visas',
+                sections: [
+                  {
+                    title: 'Nepieciešamās sīkdatnes',
+                    description: 'Šīs sīkdatnes ir obligātas vietnes pamatfunkciju nodrošināšanai un tās nevar atslēgt.',
+                    linkedCategory: 'necessary'
+                  },
+                  {
+                    title: 'Analītikas sīkdatnes',
+                    description: 'Google Analytics sīkdatnes palīdz mums saprast, kā apmeklētāji izmanto vietni. Visa informācija ir anonīma.',
+                    linkedCategory: 'analytics'
+                  }
+                ]
+              }
+            }
+          }
+        },
+        onConsent: function () {
+          if (CookieConsent.acceptedCategory('analytics')) {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+          }
+        },
+        onChange: function () {
+          gtag('consent', 'update', {
+            'analytics_storage': CookieConsent.acceptedCategory('analytics') ? 'granted' : 'denied'
+          });
+        }
+      });
+    });
+  </script>
+  <!-- End Cookie Consent konfigurācija -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG32RVF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      
+        <a class="brand" href="/" aria-label="Blindpilot Design logo">
+        <span class="brand-logo" data-svg="/assets/svg/bpd-logo.svg"></span>
+        </a>
+
+      <!-- <nav class="main-nav" aria-label="Primary">
+        <a href="#services">Pakalpojumi</a>
+        <a href="#audiences">Kam palīdzam</a>
+        <a href="#process">Process</a>
+        <a href="#team">Komanda</a>
+        <a href="#trust">Uzticība</a> 
+        <a href="#contact">Kontakti</a>
+      </nav> -->
+
+      <div class="header-actions">
+        <!-- <div class="social">
+          <a href="#" aria-label="LinkedIn" class="icon-link">in</a>
+          <a href="#" aria-label="Instagram" class="icon-link">ig</a>
+        </div> -->
+
+        <div class="lang">
+          <!-- LV root + EN folder approach -->
+          <span class="lang-link is-active" href="/">LV</span>
+          <span class="lang-link">/</span>
+          <a class="lang-link" href="/en/">EN</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+<section class="section hero" id="top">
+  <div class="container hero-inner">
+    <div class="hero-left">
+      <div class="hero-top">
+        <div class="iam">Es esmu...</div>
+
+        <!-- Audience toggle (Agency / Business) -->
+        <div class="role-toggle" role="tablist" aria-label="Choose audience">
+          <button
+            class="role-btn is-active"
+            type="button"
+            data-role="agency"
+            role="tab"
+            aria-selected="true"
+            aria-controls="hero-agency"
+            id="tab-agency"
+          >
+            AĢENTŪRA
+          </button>
+
+          <button
+            class="role-btn"
+            type="button"
+            data-role="business"
+            role="tab"
+            aria-selected="false"
+            aria-controls="hero-business"
+            id="tab-business"
+          >
+            UZŅĒMUMS
+          </button>
+        </div>
+      </div>
+
+      <!-- ONE real H1 for SEO (hidden visually) -->
+      <h1 class="visually-hidden">
+        White-label dizaina un ražošanas atbalsts aģentūrām un uzņēmumiem
+      </h1>
+
+      <!-- HERO COPY: Agency -->
+      <div
+        class="hero-copy is-visible"
+        data-hero="agency"
+        id="hero-agency"
+        role="tabpanel"
+        aria-labelledby="tab-agency"
+      >
+        <p class="hero-kicker">White-label dizaina un ražošanas atbalsts</p>
+        <h2 class="hero-title">Jūsu white-label dizaina un ražošanas komanda.</h2>
+        <p class="hero-lead">Ātrs, precīzs un diskrēts atbalsts aģentūrām, kas grib vairāk kapacitātes bez lieka trokšņa.</p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact" data-scroll-to="contact">Pārrunāt sadarbību</a>
+          <a class="btn btn-ghost" href="#services">Apskatīt pakalpojumus</a>
+        </div>
+      </div>
+
+      <!-- HERO COPY: Business -->
+      <div
+        class="hero-copy"
+        data-hero="business"
+        id="hero-business"
+        role="tabpanel"
+        aria-labelledby="tab-business"
+        aria-hidden="true"
+      >
+        <p class="hero-kicker">Dizaina un ražošanas atbalsts uzņēmumiem</p>
+        <h2 class="hero-title">Dizaina atbalsts, uz kuru jūsu uzņēmums var paļauties.</h2>
+        <p class="hero-lead">Vienoti vizuālie materiāli drukai un digitālajiem kanāliem — bez iekšējās komandas uzturēšanas sarežģītības.</p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact" data-scroll-to="contact">Pārrunāt vajadzības</a>
+          <a class="btn btn-ghost" href="#services">Ko mēs nodrošinām</a>
+        </div>
+      </div>
+
+      <p class="hero-micro">Based in EU · Working worldwide · NDA/white-label when required</p>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-visual" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+<!-- ANGLED BG START ---->
+<div class="angled-bg">
+    <!-- SERVICES -->
+<section class="section" id="services">
+  <div class="container">
+    <header class="section-head">
+      <h2>Ko mēs nodrošinām</h2>
+      <p class="section-lead">
+        Pārņemam dizaina un ražošanas uzdevumus, lai jums būtu konsekvents rezultāts, skaidri termiņi un mazāk saskaņošanas.
+      </p>
+    </header>
+
+    <div class="grid grid-3 services-grid" role="list">
+      <article class="card" role="listitem">
+        <h4>Dizains un vizuālie materiāli</h4>
+        <p>Zīmola materiāli, prezentācijas, mārketinga un ikdienas vizuāļi, izstrādāti ar dizaina spriedumu un sagatavoti stingri atbilstoši jūsu zīmola vadlīnijām.</p>
+      </article>
+
+      <article class="card" role="listitem">
+        <h4>Ražošana un adaptācijas</h4>
+        <p>Failu sagatavošana drukai un digitālajiem kanāliem, samazinot labojumus un lieku atkārtotu saskaņošanu.</p>
+      </article>
+
+      <article class="card" role="listitem">
+        <h4>Digitālie un sociālo tīklu materiāli</h4>
+        <p>Vizuāļi pielāgoti dažādiem kanāliem un kontekstiem, saglabājot idejas skaidrību un pareizos tehniskos parametrus.</p>
+      </article>
+
+      <article class="card" role="listitem">
+        <h4>HTML5, animācija un kustība</h4>
+        <p>HTML5 baneri un animācijas, kas skaidri nodod ideju un pastiprina saturu digitālajās kampaņās un prezentācijās.</p>
+      </article>
+
+      <article class="card" role="listitem">
+        <h4>UI/UX un produktu atbalsts</h4>
+        <p>Wireframe, UI elementi un mikromijiedarbības produktiem un mājaslapām. Palīdzam komandām panākt, lai interfeiss izskatās un jūtas vienots.</p>
+      </article>
+
+      <article class="card" role="listitem">
+        <h4>White-label un tehniskā kontrole</h4>
+        <p>NDA, failu standarti, zīmola vadlīnijas un tehniskā pārbaude. Strādājam jūsu vārdā, ievērojam jūsu noteikumus un parūpējamies, lai nekas nesaplīst ražošanā.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+   <!-- AUDIENCES -->
+<section class="section" id="audiences">
+  <div class="aud-bg" aria-hidden="true">
+    <span class="aud-box aud-mid" data-depth="0.06"></span>
+    <span class="aud-box aud-left" data-depth="0.09"></span>
+    <span class="aud-box aud-right" data-depth="0.12"></span>
+  </div>
+
+  <div class="container">
+    <header class="section-head">
+      <h2>Sadarbības modeļi</h2>
+      <p class="section-lead">
+        Divi sadarbības modeļi: aģentūrām (white-label) un uzņēmumiem (ārējais dizaina un ražošanas atbalsts).
+        Pieslēdzamies brīžos, kad apjoms, termiņi vai formātu daudzums sāk pārslogot komandu.
+      </p>
+    </header>
+
+    <!-- Desktop heads -->
+    <div class="audience-heads">
+      <h3 class="audience-col-title">Aģentūrām</h3>
+      <h3 class="audience-col-title">Uzņēmumiem</h3>
+    </div>
+<!-- Mobile-only combined heading -->
+<h3 class="audience-col-title audience-col-title--mobile">
+  Aģentūrām 
+</h3>
+    <!-- 4 cards row -->
+    <div class="audience-cards-grid" role="list">
+      <article class="aud-card aud-card--a2" role="listitem">
+        <h4>Vislabāk der</h4>
+        <ul>
+          <li>reklāmas / kreatīvā aģentūra</li>
+          <li>digitālā vai performance aģentūra</li>
+          <li>sociālo tīklu aģentūra</li>
+          <li>dizaina studija</li>
+          <li>UX / produktu komanda</li>
+        </ul>
+      </article>
+      <article class="aud-card aud-card--a1" role="listitem">
+        <h4>Mēs palīdzam, kad</h4>
+        <ul>
+          <li>dizaineriem nav kapacitātes</li>
+          <li>vajag daudz adaptāciju īsā laikā</li>
+          <li>nav HTML5 vai animācijas speciālista</li>
+          <li>brīfi pienāk haotiski un jāsakārto</li>
+          <li>vajag kļūdu drošu ražošanas atbalstu</li>
+        </ul>
+      </article>
+
+<!-- Mobile-only combined heading -->
+<h3 class="audience-col-title audience-col-title--mobile">
+  Uzņēmumiem
+</h3>
+      <article class="aud-card aud-card--b1" role="listitem">
+        <h4>Vislabāk der</h4>
+        <ul>
+          <li>ražošanas un B2B uzņēmumiem</li>
+          <li>tehnoloģiju un SaaS produktiem</li>
+          <li>pakalpojumu sniedzējiem</li>
+          <li>MVU ar regulārām mārketinga vajadzībām</li>
+          <li>e-komercijas zīmoliem</li>
+        </ul>
+      </article>
+
+      <article class="aud-card aud-card--b2" role="listitem">
+        <h4>Mēs palīdzam, kad</h4>
+        <ul>
+          <li>nav sava dizainera</li>
+          <li>materiāli izskatās nevienoti</li>
+          <li>frīlanseri kavē vai pazūd</li>
+          <li>vajag stabilu ikmēneša atbalstu</li>
+          <li>vajag aģentūras kvalitāti bez aģentūras cenas un birokrātijas</li>
+          <li>vajag dizaina spriedumu, ne tikai izpildi</li>
+        </ul>
+      </article>
+    </div>
+
+    <!-- CTA row -->
+    <div class="audience-actions-row">
+      <div class="audience-actions">
+        <p class="audience-micro">
+          White-label sadarbība aģentūrām ar skaidru procesu un atbildību. NDA pēc vajadzības.
+        </p>
+        <a class="btn btn-services-1" href="#contact" data-scroll-to="contact">Pieslēgt atbalstu</a>
+      </div>
+
+      <div class="audience-actions">
+        <p class="audience-micro">
+          Dizaina un ražošanas atbalsts uzņēmumiem ar skaidru procesu un paredzamu izpildi.
+        </p>
+        <a class="btn btn-services-2" href="#contact" data-scroll-to="contact">Pārrunāt vajadzības</a>
+      </div>
+      <div class="audience-actions-mobile">
+        <p class="audience-micro">
+          White-label sadarbība aģentūrām un dizaina un ražošanas atbalsts uzņēmumiem.
+        </p>
+        <a class="btn btn-services-2" href="#contact" data-scroll-to="contact">Pārrunāt vajadzības</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- PROCESS -->
+<section class="section" id="process">
+  <div class="container">
+    <header class="section-head">
+      <h2>Kā mēs strādājam</h2>
+      <p class="section-lead">Skaidrs process ar paredzamiem termiņiem un nodošanu. Viegli integrējams jūsu darbplūsmā — bez liekas menedžēšanas.</p>
+    </header>
+
+    <div class="grid grid-4 process-grid">
+      <article class="card step">
+        <h4>1. Brīfs un apjoms</h4>
+        <p>Saskaņojam uzdevumu, formātus, apjomu un termiņu. Ja brīfs ir haotisks — sakārtojam to pirms izpildes.</p>
+      </article>
+
+      <article class="card step">
+        <h4>2. Izpilde</h4>
+        <p>Izpildām darbu jūsu vadlīnijās un tehniskajās prasībās, ar konsekventu kvalitāti visos formātos.</p>
+      </article>
+
+      <article class="card step">
+        <h4>3. Nodošana</h4>
+        <p>Nododam gatavus materiālus lietošanai — druka, digitālie kanāli, motion un HTML5. Faili sakārtoti un pārbaudīti.</p>
+      </article>
+
+      <article class="card step">
+        <h4>4. Ritms un labojumi</h4>
+        <p>Strādājam regulāri vai ad-hoc. Vienojamies par saziņas ritmu un labojumu cikliem. NDA/white-label pēc vajadzības.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+    <!-- TEAM -->
+<section class="section" id="team">
+  <div class="container">
+    <header class="section-head">
+      <h2>Komanda</h2>
+      <p class="section-lead">Jūs strādāsiet tieši ar cilvēkiem, kas veic darbu — bez starpniekiem.</p>
+    </header>
+
+    <div class="team-grid">
+      <!-- Member 1 -->
+      <article class="team-card">
+        <div class="team-media">
+          <img src="/assets/img/user-alans.png" alt="Alans Jaunzems, vadītājs, UI/UX dizainers un digitālās ražošanas speciālists" loading="lazy" />
+        </div>
+
+        <div class="team-body">
+          <h4>Alans Jaunzems</h4>
+
+          <div class="team-role">
+            Projekta virzība, dizains un digitālā izpilde
+            <div class="team-tags" aria-label="Kompetences">
+              <span class="pill">UI/UX Design</span>
+              <span class="pill">HTML5 Baneri</span>
+              <span class="pill">Motion & Animation</span>
+              <span class="pill">Projektu vadība</span>
+              <span class="pill">Agile / Scrum</span>
+            </div>
+          </div>
+
+          <div class="team-contact">
+            <p class="team-contact-line">
+              <span class="label">E-pasts</span>
+              <a href="mailto:alans@bpd.lv">alans@bpd.lv</a>
+            </p>
+            <a class="btn btn-secondary" href="mailto:alans@bpd.lv?subject=Sadarb%C4%ABba%20ar%20BPD">Rakstīt tieši</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Member 2 -->
+      <article class="team-card">
+        <div class="team-media">
+          <img src="/assets/img/user-linda.png" alt="Linda Apine-Jaunzeme, vadītāja un dizainere drukas un maketēšanas materiālos" loading="lazy" />
+        </div>
+
+        <div class="team-body">
+          <h4>Linda Apine-Jaunzeme</h4>
+
+          <div class="team-role">
+            Dizains, maketēšana, prepress un ražošanas disciplīna, interjera dizains
+            <div class="team-tags" aria-label="Kompetences">
+              <span class="pill">Vizuālā identitāte</span>
+              <span class="pill">Iepakojuma dizains</span>
+              <span class="pill">Prepress & CMYK</span>
+              <span class="pill">Print Production</span>
+              <span class="pill">Zīmolvedība</span>
+            </div>
+          </div>
+
+          <div class="team-contact">
+            <p class="team-contact-line">
+              <span class="label">E-pasts</span>
+              <a href="mailto:linda@bpd.lv">linda@bpd.lv</a>
+            </p>
+            <a class="btn btn-secondary" href="mailto:linda@bpd.lv?subject=Sadarb%C4%ABba%20ar%20BPD">Rakstīt tieši</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Details / Requisites -->
+      <aside class="team-card team-card--details" aria-label="Rekvizīti">
+        <div class="team-body">
+          <div class="team-details">
+          <h4>Rekvizīti</h4>
+          
+            <p><span class="label">Uzņēmums:</span> SIA Blindpilot Design</p>
+            <p><span class="label">Juridiskā adrese:</span> Matīšu iela 7, Valmiera, Valmieras nov., LV-4201, Latvija</p>
+            <p><span class="label">Reģ. nr.:</span> 44103053820</p>
+            <p><span class="label">PVN Nr.:</span> LV44103053820</p>
+            <p><span class="label">Banka:</span> AS „Citadele”</p>
+            <p><span class="label">SWIFT:</span> PARXLV22</p>
+            <p><span class="label">IBAN:</span> LV48PARX0020388860003</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+    <!-- end of ANGLED-BG --> 
+    </div>   
+<!-- TRUST / SOCIAL PROOF -->
+<section class="section" id="trust">
+  <div class="container">
+    <header class="section-head">
+      <h2>Kāpēc mums uzticas</h2>
+      <p>Daļa darbu ir zem NDA, tāpēc publiski nerādām visu — bet par kvalitāti runā konsekvence, termiņi un failu disciplīna.</p>
+    </header>
+
+    <div class="grid grid-4 stats-grid">
+      <div class="stat card">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">gadu pieredze</div>
+      </div>
+      <div class="stat card">
+        <div class="stat-num">3000+</div>
+        <div class="stat-label">piegādāti materiāli</div>
+      </div>
+      <div class="stat card">
+        <div class="stat-num">6–48 h</div>
+        <div class="stat-label">tipisks izpildes laiks</div>
+      </div>
+      <div class="stat card">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">white-label pēc vajadzības</div>
+      </div>
+    </div>
+
+    <p class="trust-micro">Tipiski strādājam ar aģentūrām un uzņēmumiem, kuriem svarīga ir paredzama izpilde un mierīga sadarbība.</p>
+    <p class="micro-humor">Comic Sans netiek izmantots. Nekad.</p>
+  </div>
+</section>
+
+    <!-- CONTACT / FINAL CTA -->
+<section class="section section-contact" id="contact">
+  <div class="container">
+    <header class="section-head">
+      <h2>Sazināsimies</h2>
+      <p class="section-lead">
+        Pastāstiet, ko vajag — atbildēsim ar skaidru plānu, termiņu un nākamajiem soļiem.
+      </p>
+    </header>
+
+   <form class="form" id="contact-form" action="/assets/api/contact.php" method="post">
+      <!-- 2 columns -->
+      <div class="form-row">
+        <div class="field">
+          <label class="visually-hidden" for="contact-name">Vārds vai uzņēmums</label>
+          <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Vārds vai uzņēmums" required />
+        </div>
+
+        <div class="field">
+          <label class="visually-hidden" for="contact-email">E-pasts</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="E-pasts" required />
+        </div>
+      </div>
+
+      <fieldset class="field radios">
+        <legend class="visually-hidden">Pārstāvu</legend>
+
+        <div class="radios-row" role="radiogroup" aria-label="Pārstāvu">
+          <label class="radio-pill">
+            <input type="radio" name="client_type" value="agency" checked />
+            <span>Aģentūru</span>
+          </label>
+
+          <label class="radio-pill">
+            <input type="radio" name="client_type" value="business" />
+            <span>Uzņēmumu</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <label class="visually-hidden" for="contact-brief">Uzdevums / brīfs</label>
+        <textarea id="contact-brief" name="brief" rows="5" placeholder="Uzdevums / brīfs" required></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit">Nosūtīt pieprasījumu</button>
+        <p class="form-note">Vidējais atbildes laiks: 12–24 stundas.</p>
+      </div>
+    </form>
+
+    <div class="direct">
+      <p class="direct-title">Vai vēlaties sazināties tieši?</p>
+      <p class="direct-line">
+        E-pasts: <a href="mailto:info@bpd.lv">info@bpd.lv</a> ·
+        Tālrunis/WhatsApp: <a href="tel:+37129447529">+371 2944 7529</a>
+      </p>
+    </div>
+    
+  </div>
+</section>
+  </main>
+
+  <!-- FOOTER -->
+<footer id="footer" class="site-footer">
+  <div class="container footer-grid-2">
+    <!-- Left -->
+    <div class="footer-left">
+      <a href="#top" class="footer-logo" aria-label="Blindpilot Design">
+        <span class="footer-logo-svg" data-svg="/assets/svg/logo-footer.svg"></span>
+      </a>
+
+      <p class="footer-text">White-label dizaina un ražošanas atbalsts aģentūrām un uzņēmumiem.</p>
+      <p class="footer-micro">Based in EU — working with agencies and companies worldwide.</p>
+    </div>
+
+    <!-- Right -->
+    <div class="footer-right">
+      <h5 class="footer-title">Rekvizīti</h5>
+      <div class="footer-meta">
+        <p><span class="label">Uzņēmums:</span> SIA Blindpilot Design</p>
+        <p><span class="label">Reģ. nr.:</span> 44103053820</p>
+        <p><span class="label">PVN Nr.:</span> LV44103053820</p>
+        <p><span class="label">Banka:</span> AS „Citadele"</p>
+        <p><span class="label">SWIFT:</span> PARXLV22</p>
+        <p><span class="label">IBAN:</span> LV48PARX0020388860003</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
